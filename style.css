@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width: 100%;
+    height: 5em;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+#icon{
+    margin: 1.8em;
+    display: inline-block;
+}
+#flag{
+   font-size: 1.5em;
+}
+#flag:hover{
+   color: #ffd43b;
+   
+}
+#nav{
+    display: inline-block;
+    
+}
+li{
+    display: inline-block;
+    color: #616d94;
+    margin-left: 3em;
+}
+li:hover{
+    color: #538dd7;
+}
+#arrow{
+    margin-left: 26em;
+}
+#say{
+    background-color: #f36944;
+    width: 90%;
+    height: 7em;
+    margin-top: 2em;
+    margin-left: 3.5em;
+    border-radius: 1em;
+}
+#crown{
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-top: 0.7em;
+    display: inline-block;
+}
+#hello{
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    position: absolute;
+    top: 8.5em;
+    left: 8em;
+}
+#bu{
+    height: 2.5em;
+    width: 10em;
+    font-size: 1.1em;
+    border-radius: 0.3em;
+    border: none;
+    margin-left: 4em;
+    margin-bottom: 4em;
+    background: white;
+    box-shadow: 0.2em 0.2em  #183153;
+    position: absolute;
+    top: 8.7em;
+    right: 6em;
+}
+#bu:hover{
+     background-color: rgb(211, 207, 207);
+}
+#take{
+    color: #183153;
+    font-size: 2em;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: #183153;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+}
+#website{
+    color: #ffd43b;
+}
+#of{
+    text-align: center;
+}
+#aa{
+    font-weight: bold;
+}
+#of{
+    font-size: 1.2em;
+}
+#start{
+    margin-left: 22em;
+    margin-top: 3em;
+    height: 2.5em;
+    width: 10em;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    border: none;
+    background: white;
+    box-shadow: 0.2em 0.2em  #183153;
+    display: inline-block;
+    border: 0.2em solid #183153;
+
+}
+#free{
+    height: 2.5em;
+    width: 11em;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    border: none;
+    margin-left: 3em;
+    margin-top: 3em;
+    background: #ffd43b;
+    box-shadow: 0.2em 0.2em  #183153;
+    display: inline-block;
+   border: 0.2em solid #183153;
+   position: absolute;
+   top: 26.9em;
+}
+#start:hover{
+    background: rgb(202, 196, 196);
+}
+#free:hover{
+    background-color: #d4b132;
+}
